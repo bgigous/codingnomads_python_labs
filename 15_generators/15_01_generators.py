@@ -18,7 +18,7 @@ def fib(n):
         yield b
         i += 1
 
-my_fib_generator = (x for x in fib(0))
+my_fib_generator = (x for x in fib(10))
 print(my_fib_generator)
 for num in my_fib_generator:
     print(num)
